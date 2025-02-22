@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Summarizer & Sentiment Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>AI-Powered Text Summarizer & Sentiment Analyzer</h1>
+        <p>Paste your text below and get a summary with sentiment analysis.</p>
+    </header>
+    
+    <section id="input-section">
+        <textarea id="inputText" placeholder="Paste your text here..."></textarea>
+        <button onclick="analyzeText()">Analyze</button>
+    </section>
+    
+    <section id="output-section">
+        <h2>Summary:</h2>
+        <p id="summaryText"></p>
+        <h2>Sentiment:</h2>
+        <p id="sentimentText"></p>
+        <button onclick="downloadSummary()" id="downloadBtn" style="display:none;">Download Summary</button>
+    </section>
+    
+    <script>
+        async function analyzeText() {
+            let text = document.getElementById("inputText").value;
+            if (!text) {
+                alert("Please enter some text!");
+                return;
+            }
+            
+            // Simulating API call with OpenAI (replace with real API later)
+            let summary = text.split(" ").slice(0, 20).join(" ") + "...";  // Mock summary
+            let sentiment = ["Positive", "Negative", "Neutral"][Math.floor(Math.random() * 3)];  // Mock sentiment
+            
+            document.getElementById("summaryText").innerText = summary;
+            document.getElementById("sentimentText").innerText = "Sentiment: " + sentiment;
+            document.getElementById("downloadBtn").style.display = "block";
+        }
+        
+        function downloadSummary() {
+            let summary = document.getElementById("summaryText").innerText;
+            let blob = new Blob([summary], { type: "text/plain" });
+            let link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = "summary.txt";
+            link.click();
+        }
+    </script>
+</body>
+</html>
