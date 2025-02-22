@@ -52,7 +52,7 @@ This is a **fully frontend-based** AI-powered web application that allows users 
 
 ## 🚀 Live Demo
 
-[Click here to try the AI Summarizer](#) (Add deployed link here)
+[Click here to try the AI Summarizer](https://github.com/someshsingh-7251/AI-Powered-Text-Summarizer-Sentiment-Analyzer/blob/main/index.hmt)
 
 ---
 
