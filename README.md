@@ -44,7 +44,7 @@ This is a **fully frontend-based** AI-powered web application that allows users 
 
 ## 📷 Screenshots
 
-[(Add screenshots here after deployment)](https://github.com/someshsingh-7251/AI-Powered-Text-Summarizer-Sentiment-Analyzer/blob/main/Screenshort.png)
+[Screenshort of the Website](https://github.com/someshsingh-7251/AI-Powered-Text-Summarizer-Sentiment-Analyzer/blob/main/Screenshort.png)
 
 ---
 
