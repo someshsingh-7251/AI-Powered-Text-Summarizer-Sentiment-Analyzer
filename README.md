@@ -1,3 +1,5 @@
+![Project views](https://komarev.com/ghpvc/?username=someshsingh-7251)
+
 # AI Text Summarizer & Sentiment Analyzer
 
 ## 🚀 Project Overview
