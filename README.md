@@ -50,9 +50,9 @@ This is a **fully frontend-based** AI-powered web application that allows users 
 
 ---
 
-## 🚀 Live Demo
+## 🌐 Live Demo
 
-[Click here to try the AI Summarizer](https://someshsingh-7251.github.io/AI-Powered-Text-Summarizer-Sentiment-Analyzer/)
+🔗 [AI Text Summarizer & Sentiment Analyzer](https://someshsingh-7251.github.io/AI-Powered-Text-Summarizer-Sentiment-Analyzer/)
 
 ---
 
@@ -77,3 +77,11 @@ This project is open-source and available under the **MIT License**.
 ---
 
 *Note: Feel Free to Contact at Instagram: [Somesh Chinku Singh](https://www.instagram.com/officialsomeshchinkusingh?igsh=MW1vdTZwbDdmMTZxbw==)*
+
+---
+
+## 🧑‍💻 Author
+
+Developed with ❤️ by [Somesh Singh](https://www.linkedin.com/in/someshsingh-2aa796229/)
+
+> Part of my journey as **Leader of the D-Coders Squad Web Development Club**.
